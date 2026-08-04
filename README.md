@@ -27,10 +27,11 @@ Open the URL Astro prints (usually `http://localhost:4321`).
 npm run build
 ```
 
-Publish the **`dist/`** folder to Cloudflare Pages.
+Publish the **`dist/`** folder to Cloudflare Pages:
 
-Suggested Pages settings:
+```bash
+npm run build
+npx wrangler pages deploy dist --project-name=america-postcards
+```
 
-- Build command: `npm run build`
-- Output directory: `dist`
-- Node version: 22+
+Live: https://america-postcards.pages.dev/
