@@ -1,0 +1,21 @@
+{
+  "name": "Where We Wander",
+  "short_name": "WWW",
+  "description": "A family travel journal from South Africa to America.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffdf9",
+  "theme_color": "#b22234",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
