@@ -1,0 +1,24 @@
+---
+import Photo from "./Photo.astro";
+
+interface Image {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
+interface Props {
+  images: Image[];
+}
+
+const { images } = Astro.props;
+const className = images.length >= 3 ? "gallery triple" : "gallery";
+---
+
+<div class={className}>
+  {
+    images.map((image) => (
+      <Photo src={image.src} alt={image.alt} caption={image.caption} />
+    ))
+  }
+</div>

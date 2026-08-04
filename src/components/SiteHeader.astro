@@ -1,0 +1,17 @@
+---
+interface Props {
+  current?: "journal" | "reel";
+}
+
+const { current = "journal" } = Astro.props;
+---
+
+<header class="site-header">
+  <nav class="shell-wide site-nav" aria-label="Primary">
+    <a class="wordmark" href="/">Where We <em>Wander</em></a>
+    <div class="nav-links">
+      <a href="/" aria-current={current === "journal" ? "page" : undefined}>Journal</a>
+      <a href="/reel" aria-current={current === "reel" ? "page" : undefined}>Reel</a>
+    </div>
+  </nav>
+</header>

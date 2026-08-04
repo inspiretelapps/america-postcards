@@ -1,0 +1,16 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
+const { src, alt, caption } = Astro.props;
+---
+
+<figure class="photo-frame">
+  <button class="tap-photo" type="button" data-lightbox={src} data-caption={caption || ""}>
+    <img src={src} alt={alt} loading="lazy" decoding="async" />
+  </button>
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>

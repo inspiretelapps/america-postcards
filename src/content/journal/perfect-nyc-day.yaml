@@ -1,0 +1,100 @@
+title: "A Perfect NYC Day: Friends, Ferries, and Iconic Sights"
+date: 2026-08-01
+time: "10:37"
+location: Brooklyn & Lower Manhattan, New York
+author: Jaco
+rank: 50
+blocks:
+  - type: prose
+    text: >
+      Exploring New York City is amazing, but it’s just so much nicer when you have friends to show you around. Having locals guide the way means zero stress for the family — you just get to look up, relax, and actually take in those massive, iconic buildings without worrying about navigating!
+  - type: heading
+    text: Brooklyn and the Bridge
+  - type: prose
+    text: >
+      We kicked off the day catching the NYC Ferry over to Brooklyn. The Manhattan skyline views from the water are unbeatable!
+  - type: gallery
+    images:
+      - src: /images/nyc-ferry-family.jpeg
+        alt: The family smiling together on the ferry.
+        caption: Setting off on the NYC Ferry.
+      - src: /images/nyc-ferry-skyline-deck.jpeg
+        alt: The Manhattan skyline seen from the open deck of the ferry.
+        caption: The Manhattan skyline from the ferry deck.
+  - type: video
+    src: /images/nyc-ferry-skyline.mp4
+    poster: /images/nyc-ferry-skyline-poster.jpg
+    caption: Gliding across the water towards Brooklyn.
+    duration: 16 sec
+  - type: prose
+    text: >
+      Before heading back across the river, we stopped by the beautiful glass-enclosed Jane’s Carousel right on the waterfront.
+  - type: photo
+    src: /images/nyc-janes-carousel.jpeg
+    alt: Jane’s Carousel, a glass-enclosed carousel on the Brooklyn waterfront.
+    caption: Jane’s Carousel, glass-enclosed on the waterfront.
+  - type: prose
+    text: >
+      Then it was time for the main event: walking across the Brooklyn Bridge. The bridge is obviously amazing, but being on it really gives you a sense of just how huge everything in this city is.
+  - type: gallery
+    images:
+      - src: /images/nyc-brooklyn-bridge-family.jpeg
+        alt: The family at the waterfront with the Brooklyn Bridge and Lower Manhattan behind them.
+        caption: The Brooklyn Bridge and Lower Manhattan behind us.
+      - src: /images/nyc-brooklyn-bridge-tower.jpeg
+        alt: Looking up at the Brooklyn Bridge tower and cables from the wooden walkway.
+        caption: Beneath the great stone tower.
+  - type: prose
+    text: >
+      Once we made it to the other side, we caught a group of street gymnasts pulling off some insane acrobatic moves. It was the perfect New York moment.
+  - type: video
+    src: /images/nyc-street-gymnasts.mp4
+    poster: /images/nyc-street-gymnasts-poster.jpg
+    caption: Street gymnasts under the bridge.
+    duration: 14 sec
+  - type: heading
+    text: Lady Liberty and Wall Street
+  - type: prose
+    text: >
+      Next up was the Staten Island Ferry for a breezy, front-row view of the Statue of Liberty. We cruised right past Lady Liberty and took in the harbor before heading back to grab some classic New York pizza (a must, obviously!).
+  - type: gallery
+    images:
+      - src: /images/nyc-ferry-liberty-selfie.jpeg
+        alt: Three smiling family members inside the ferry with the Statue of Liberty visible through the window behind them.
+        caption: Sailing past Lady Liberty.
+      - src: /images/nyc-liberty-souvenir.jpeg
+        alt: A child holding a small Statue of Liberty souvenir up to the window, with the harbour outside.
+        caption: A tiny Lady Liberty against the real one.
+      - src: /images/nyc-pizza-slices.jpeg
+        alt: Four slices of New York pizza on paper plates.
+        caption: Classic New York pizza.
+  - type: prose
+    text: >
+      Fueled up, we wandered down Wall Street to see the famous Charging Bull, which was buzzing with energy. Just up the street, the historic Trinity Church looks incredible standing right next to all those modern skyscrapers.
+  - type: gallery
+    images:
+      - src: /images/nyc-wall-street-street.jpeg
+        alt: A boy and woman standing on a cobbled street in New York’s Financial District.
+        caption: On the streets of the Financial District.
+      - src: /images/nyc-trinity-church.jpeg
+        alt: Trinity Church’s Gothic tower rising beside modern skyscrapers.
+        caption: Trinity Church, timeless among the towers.
+  - type: heading
+    text: The World Trade Center
+  - type: prose
+    text: >
+      We finished this part of our adventure at the World Trade Center. Visiting the 9/11 Memorial is a deeply moving experience, and the massive reflecting pools are truly something you have to see in person.
+  - type: photo
+    src: /images/nyc-memorial-pools.jpeg
+    alt: The 9/11 Memorial reflecting pool in Lower Manhattan.
+    caption: The 9/11 Memorial reflecting pools.
+  - type: prose
+    text: >
+      Right next door is The Oculus. It’s this stunning transit hub and mall that looks like a giant white bird taking flight from the middle of the city.
+  - type: photo
+    src: /images/nyc-oculus-interior.jpeg
+    alt: The white ribbed interior of The Oculus transit hub.
+    caption: Inside The Oculus.
+  - type: prose
+    text: >
+      It was a jam-packed, unforgettable day, made even better by having great friends lead the way!

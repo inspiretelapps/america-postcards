@@ -1,0 +1,35 @@
+---
+interface Props {
+  src: string;
+  poster: string;
+  caption?: string;
+  duration?: string;
+}
+
+const { src, poster, caption, duration } = Astro.props;
+---
+
+<figure class="video-moment">
+  <div class="video-moment__inner">
+    <video
+      playsinline
+      preload="none"
+      poster={poster}
+      controls={false}
+      data-video-moment
+    >
+      <source src={src} type="video/mp4" />
+    </video>
+    <button class="video-moment__play" type="button" aria-label="Play video">
+      <span class="video-moment__play-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5.14v13.72L19 12 8 5.14z"></path>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div class="video-moment__meta">
+    {caption ? <figcaption>{caption}</figcaption> : <span></span>}
+    {duration && <span class="video-moment__duration">{duration}</span>}
+  </div>
+</figure>

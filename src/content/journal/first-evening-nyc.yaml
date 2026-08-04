@@ -1,0 +1,39 @@
+title: Our first evening in New York City
+date: 2026-07-31
+time: "20:18"
+location: Roosevelt Island, New York City
+author: Jaco
+rank: 40
+blocks:
+  - type: prose
+    text: |
+      Our first day in New York City is coming to a close. We landed around 40 minutes behind schedule — due in at about quarter to twelve, but touching down closer to 12:30. Customs was not too bad, and we were fast-tracked because Samuel was with us, although it still took almost an hour from leaving the plane to getting through.
+
+      The airport felt surprisingly familiar: somewhere between Cape Town International and O.R. Tambo. It did not feel overwhelmingly big, although that may simply be because we only saw one part of it. Ryno met us with Dunkin’ Donuts and cappuccinos — and their smallest coffee is basically the size of one of our largest.
+
+      From the airport, we took the train, then the subway, and eventually a red bus to Roosevelt Island and the apartment building. After unpacking and catching up properly, we went for a lovely walk around the island later in the afternoon.
+
+      It is hot and humid here — over 30°C, with the kind of summer weather that brings Durban to mind. The subway platforms are especially warm, but the trains themselves are air-conditioned, which is a welcome relief.
+
+      It is now quarter past eight and only just heading towards sunset. It is very cool to finally be in America and to start taking it all in. Tomorrow’s plan is Brooklyn Bridge, DUMBO, the ferry, and hopefully a look at the Statue of Liberty.
+  - type: gallery
+    images:
+      - src: /images/nyc-roosevelt-island-view.jpeg
+        alt: A child at the Roosevelt Island subway map, with the Queensboro Bridge and Manhattan skyline beyond.
+        caption: Our first view of Roosevelt Island.
+      - src: /images/nyc-roosevelt-subway-train.jpeg
+        alt: A New York subway train passing the Roosevelt Island platform.
+        caption: The New York subway in motion.
+      - src: /images/nyc-roosevelt-subway-family.jpeg
+        alt: Family members waiting with luggage at the Roosevelt Island subway station.
+        caption: Waiting at Roosevelt Island station.
+  - type: video
+    src: /images/new-york-arrival-queue.mp4
+    poster: /images/new-york-arrival-queue-poster.jpg
+    caption: The first queue after landing in New York.
+    duration: 5 sec
+  - type: video
+    src: /images/new-york-roosevelt-bus.mp4
+    poster: /images/new-york-roosevelt-bus-poster.jpg
+    caption: On the red bus towards Roosevelt Island.
+    duration: 5 sec

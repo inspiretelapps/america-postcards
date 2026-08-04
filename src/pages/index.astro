@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import StoryEntry from "../components/StoryEntry.astro";
+
+const entries = (await getCollection("journal")).sort(
+  (a, b) => b.data.rank - a.data.rank,
+);
+---
+
+<BaseLayout
+  title="Where We Wander"
+  description="Honest family journal entries from South Africa to America — Where We Wander."
+  current="journal"
+>
+  <main>
+    <section class="hero" aria-label="Where We Wander">
+      <div class="hero-media">
+        <img
+          src="/images/nyc-ferry-skyline-deck.jpeg"
+          alt="The Manhattan skyline from the open deck of the NYC Ferry."
+        />
+        <div class="hero-shade" aria-hidden="true"></div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">South Africa → America · 2026</p>
+        <h1>Where We <em>Wander</em></h1>
+        <p class="hero-lede">A family journal written while the details are still fresh.</p>
+      </div>
+    </section>
+
+    <section class="journal">
+      <div class="shell">
+        {entries.map((entry) => <StoryEntry entry={entry} />)}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

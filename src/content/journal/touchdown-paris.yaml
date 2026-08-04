@@ -1,0 +1,26 @@
+title: Touchdown in Paris
+date: 2026-07-31
+time: 06:49 CEST
+location: Paris, France
+author: Jaco
+rank: 20
+blocks:
+  - type: prose
+    text: |
+      We’ve just landed in Paris after a good flight overall. Sleeping was a challenge, though I’m not sure how much sleep I actually managed to get. Samuel, on the other hand, slept well enough for all three of us.
+
+      The main disappointment was the food. The low-fat options — and even the children’s meals — didn’t look particularly appetising. The chocolate mousse dessert was not bad, but it had an odd strawberry addition that made it feel less like the proper rich chocolate mousse one expects.
+
+      Charles de Gaulle Airport immediately feels much bigger and more modern than O.R. Tambo. We had to use a train-bus transfer between sections of the airport, which was surprisingly bumpy. For something at an airport of this scale, I expected a smoother, more automated experience — but it felt as though the driver was still mastering acceleration and braking.
+
+      We have about a three-and-a-half-hour layover before continuing with Delta Airlines. Franli found the service on this flight disappointing, especially compared with previous experiences where food arrived faster and was better. I did not have a benchmark, so it did not bother me as much. It will be interesting to compare the service as we fly with different airlines throughout the trip.
+
+      A small win: free airport Wi-Fi. My first international purchase has also been made — a small deodorant for €6. A bit excessive, but when in Rome… or, in this case, Paris.
+  - type: gallery
+    images:
+      - src: /images/paris-connection-family.jpeg
+        alt: A woman and a smiling child seated together in an aeroplane cabin.
+        caption: One for the postcard collection.
+      - src: /images/paris-connection-samuel-asleep.jpeg
+        alt: A child asleep across aeroplane seats during the flight.
+        caption: The best kind of travel companion.

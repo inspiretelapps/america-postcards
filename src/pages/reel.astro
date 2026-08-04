@@ -1,0 +1,58 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import VideoMoment from "../components/VideoMoment.astro";
+
+const moments = (await getCollection("reel")).sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+  title="Reel · Where We Wander"
+  description="Photos and short films from the road — Where We Wander."
+  current="reel"
+>
+  <main>
+    <section class="shell reel-hero">
+      <p class="eyebrow">South Africa → America · 2026</p>
+      <h1>Follow the <em>moments.</em></h1>
+      <p>The quick version of the trip — postcard keepsakes from the road.</p>
+    </section>
+
+    <section class="reel-stream" aria-label="Travel reel">
+      {
+        moments.map((moment) => {
+          const data = moment.data;
+          if (data.kind === "video") {
+            return (
+              <figure class="reel-item landscape">
+                <VideoMoment
+                  src={data.src}
+                  poster={data.poster || data.src}
+                  caption={data.caption}
+                  duration={data.duration}
+                />
+              </figure>
+            );
+          }
+
+          return (
+            <figure class="reel-item postcard">
+              <button
+                class="tap-photo"
+                type="button"
+                data-lightbox={data.src}
+                data-caption={data.caption}
+              >
+                <img src={data.src} alt={data.alt || data.caption} loading="lazy" decoding="async" />
+              </button>
+              <figcaption class="reel-caption">
+                {data.stamp && <span class="reel-stamp">{data.stamp}</span>}
+                {data.caption}
+              </figcaption>
+            </figure>
+          );
+        })
+      }
+    </section>
+  </main>
+</BaseLayout>
